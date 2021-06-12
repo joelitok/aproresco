@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware, compose } from 'redux';
-// middlewares
+// middlewaresss
 import thunkMiddleware from 'redux-thunk'
 // Import custom components
 import reducers from '../Action-Reducer';
