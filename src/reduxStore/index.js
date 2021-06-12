@@ -7,7 +7,7 @@ import reducers from '../Action-Reducer';
 const store = createStore(reducers,   compose(
     applyMiddleware(thunkMiddleware),
 
-    //For working redux dev tools in chrome (https://github.com/zalmoxisus/redux-devtools-extension)
+    //For working reduxon  dev tools in chrome (https://github.com/zalmoxisus/redux-devtools-extension)
     window.devToolsExtension ? window.devToolsExtension() : function (f) {
         return f;
     }
